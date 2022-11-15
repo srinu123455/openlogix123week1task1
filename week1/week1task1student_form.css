@@ -1,0 +1,238 @@
+
+
+/*div.c{
+    text-align: center;
+    margin:20px 0px 30px 30px;
+    position: relative;
+    color: black;
+
+  
+  }
+  .width{
+     height:10px;
+     width:150px;
+     padding: 20px;
+     
+     
+  
+      }
+      .c2
+       {
+        width: 30%;
+        /*margin-left: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;*/
+      /*  shape-outside: 20px;
+       }
+      div{
+         margin-top: 30px;
+      }
+      h1{
+        background-color: lightcyan;
+      }
+      .a1
+       {
+        margin-left:780px;
+       }
+        #a1
+       {
+        margin-right:40px;
+       }
+        .a2
+       {
+        margin-left:50px;
+       }
+        #a2
+       {
+        margin-right:10px;
+       }
+  textarea{
+      padding: 0px 20px 20px 0px;
+      style="color: blueviolet;
+  }
+  #btn1{
+    background-color: cadetblue;
+  }
+  #btn2{
+      background-color: steelblue;
+  
+  }div.c{
+    text-align: center;
+    margin:20px 0px 30px 30px;
+    position: relative;
+    color: black;
+  
+  }
+  .width{
+     height:10px;
+     width:150px;
+     padding: 20px;
+     
+     
+  
+      }
+      .c2
+       {
+        display: block;
+        margin-left: 200px;
+       /* width: 30%;*
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        shape-outside: 20px;
+       }
+      div{
+         margin-top: 30px;
+      }
+      h1{
+        background-color: lightcyan;
+      }
+      .a1
+       {
+        margin-left: 30%px;
+        width: 20%;
+       }
+        #a1
+       {
+        margin-right:40px;
+       }
+        .a2
+       {
+        margin-left:50px;
+       }
+        #a2
+       {
+        margin-right:10px;
+       }
+  textarea{
+      padding: 0px 20px 20px 0px;
+      style="color: blueviolet;
+  }
+  #btn1{
+    background-color: cadetblue;
+  }
+  #btn2{
+      background-color: steelblue;
+  
+  }
+  .error{
+    color: red;
+  }
+  .requiredLabel{
+    color: red;
+
+  }
+  .inputElement{
+
+ display: block;
+    margin-bottom:0%;
+   /* float: left;*/
+  }
+   
+  /*
+  .name{
+     width: 20%;
+    margin-left: 47%;
+    margin-bottom: 50px;
+   
+  }
+  /*#name{*/
+   
+        /* margin-left: 100%;
+         margin-botton: 40px;
+  }
+  .address1 {
+width: 30% !important;
+    /*margin-left: 53%;*/
+  }
+  /*.form{
+    margin-left: 200px;
+  }*//*/*/
+  @import "compass";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/* Color settings */
+$formBg: #2c3e50;
+$formColor: #fff;
+$inputBg: #fff;
+$inputColor: #000;
+$buttonBg: #e67e22;
+$buttonColor: #fff;
+$errorMsgColor: #ff0000;
+
+/* Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.container {
+  width: 500px;
+  margin: 25px auto;
+}
+
+form {
+  padding: 20px;
+  background: $formBg;
+  color: $formColor;
+
+ 
+  }
+  label,
+ 
+  button {
+    border: 0;
+    margin-bottom: 3px;
+    display: block;
+    width: 100%;
+
+  }
+  input {
+    height: 25px;
+    line-height: 25px;
+    background: $inputBg;
+    color: $inputColor;
+    padding: 0 6px;
+
+  }
+  button {
+    background-color: blue;
+    color: white;
+  }
+  .error {
+    color: $errorMsgColor;
+  }
+}
+
+.article-reference {
+  margin-top: 15px;
+ 
+}
+#btn1{
+    float: left;
+     background-color: blue;
+    color: white;
+    border: 1px solid white;
+  }
+  #submitBtn{
+    
+  
+     background-color: blue;
+    color: white;
+      border: 2px solid white;
+  }
+  .error{
+    color: red;
+  }
+  h1{
+    background-color: lightcyan;
+}
+usname{
+    margin-left: 25px;
+}
+}

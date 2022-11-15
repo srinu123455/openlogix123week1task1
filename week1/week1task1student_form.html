@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script> 
+      <link rel="stylesheet" type="text/css" href="week1task1student_form.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+
+</head>
+   <body style="background-color:lightgray">
+
+      <script type="text/javascript" src="week1task1student_form.js"></script>
+       
+        <div class="c">
+
+         <form class="container" id="signupForm" name="form" >
+
+             <h1>student form</h1>
+
+<!-- <div class="col-sm-12">
+    Username<span class="error">*</span>
+    <span>
+        <input id="name" type="text" name="name" placeholder="user_name" value="">
+    </span>
+</div> -->
+                      <div>
+                           <span style=" margin-left:10px">Username<span class="error">*</span>:</span>
+                               <!-- <div class="name"> -->
+                                    <input id="name" type="text" name="name" placeholder="user_name" value="" style="width: 10%; ">
+                               </div>
+               <!--        </div> -->
+                               <!-- <h5 id="usercheck" style="color:red">please enter min 3 letters and max 10 letters</h5> -->
+                    <div  class ="a1">
+                          <span style="margin-left: 50px;">age<span class="error" >*
+                          </span>:
+                                
+                                  <input id="age" type="text" name="age" placeholder="age" value="" style="  width: 10%; margin-top: 10px;" >
+                   
+                    <span id="numberText"></span>
+                    <div>
+                           
+                              
+                                   <span id="a2" style="   margin-left:25px ;" name="a2">gender<span class="error">*</span> :
+                                            <input id="gender" class="radio"  type="radio" value="male" name="radio" style="  width: 30px; margin-top: 10px; ">Male
+                                            <input class="radio"  type="radio" value="female" name="radio" style="  width: 30px; ">Female
+                            
+                                  </span>
+
+
+        
+
+
+
+                    <div class="form2">
+                      <span class="c2" style="   margin-left:25px ;"> address<span class="error">*</span></span>:
+                        <div class="inputElement">
+                                  <textarea name="address" id="address" class="width" rows="4" cols="50" placeholder="enter user address here" style="width: 20% ; margin-left:35px"></textarea></span>
+
+                        </div>
+                    </div>
+
+                    <div>
+                         <span><span style="margin-right:83px;">Education
+                                <span class="error" style="margin-right:6px">*</span>:
+                                      <input name="school" class="form2" type="checkbox" value="high_school" style="  width: 30px; margin-right:0px ;">high school
+                                </span><br>
+
+                                <span style=margin-right:51px;> 
+                                     <input name="inter" class="form2" type="checkbox" value="inter"  style="  width: 30px; margin-left:95px ;">inter
+                                </span><br>
+
+                                <span style=margin-right:35px;>
+                                     <input name="degree" class="form2" type="checkbox" value="degree" style="  width: 30px; margin-left:95px ;">degree
+                                </span><br>
+
+                                <span style=margin-right:59px;>
+                                     <input name="pg" class="form2" type="checkbox" value="Phd" style="  width: 30px; margin-left:95px ;">Phd
+                               </span></span>
+                    </div>
+                    <div id="a1" style="   margin-left:25px ;">city
+                               <span class="error" style="margin-right:20px">*</span>:
+                                  <select id="sel">
+                                          <div>
+                                             <option >select</option> 
+                                             <option >kakinada</option>
+                                             <option>narsapuram</option>
+                                             <option>vishakapatnam</option>
+                                  </select><br>
+                    </div>
+                    <div style="  margin-left: 90px; margin-top:10px" ;>
+                          <input id="btn1" class="a2" type="reset" value="clear" style="  width: 50px; margin-left: 30px;" >
+                          <input type="button" id="submitBtn" value="submit"  style="  width: 70px">
+               
+                    </div>
+         
+          </form> 
+        </div>
+
+  </body>
+</html>
